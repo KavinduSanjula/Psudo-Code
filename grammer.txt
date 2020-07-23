@@ -1,0 +1,7 @@
+exper:  term (PLS|MIN) term *
+
+term:   factor (MUL|DIV) factor *
+
+factor: (PLS|MIN) INT|FLOAT
+
+
